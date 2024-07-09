@@ -9,7 +9,7 @@ public class BankForm {
     public String mobileNo;
     public String aadharNo;
     public String panNo;
-    public double openFees;
+    public double balance;
 
     public String address;
     //public String

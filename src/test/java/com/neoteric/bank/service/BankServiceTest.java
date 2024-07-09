@@ -17,7 +17,7 @@ public class BankServiceTest {
         bankFrom.age=22;
         bankFrom.gender="Male";
         bankFrom.mobileNo="9985533134";
-        bankFrom.openFees=1000;
+        bankFrom.balance=5001;
         bankFrom.address="Rajahmundry";
 
 
@@ -25,7 +25,7 @@ public class BankServiceTest {
         service.getAccount(bankFrom);
 
         AccountOpen accountOpen=service.getAccount(bankFrom);
-        Assertions.assertEquals(1000,accountOpen.openFees);
+        Assertions.assertEquals(5000,accountOpen.balance);
         Assertions.assertNotNull(accountOpen.accountNumber);
 
     }
@@ -38,7 +38,7 @@ public class BankServiceTest {
         bankFrom.age=10;
         bankFrom.gender="Male";
         bankFrom.mobileNo="9985533134";
-        bankFrom.openFees=1000;
+        bankFrom.balance=4000;
         bankFrom.address="Rajahmundry";
         bankFrom.aadharNo="834923619430";
         bankFrom.panNo="GNYPM6790N";

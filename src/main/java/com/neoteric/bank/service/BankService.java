@@ -10,11 +10,11 @@ public class BankService {
 
         AccountOpen openAccount = null;
 
-        if (bankForm.age > 18) {
+        if (bankForm.balance >= 5000) {
             openAccount = new AccountOpen();
             openAccount.accountNumber = "BankCode" + UUID.randomUUID().toString();
-            openAccount.openFees = 1000;
-
+            openAccount.balance = 5000;
+            System.out.println("my balance"+ openAccount.balance);
 
         }
         return openAccount;
