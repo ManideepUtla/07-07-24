@@ -7,6 +7,8 @@ public class BankForm {
     public int age;
     public String gender;
     public String mobileNo;
+    public String aadharNo;
+    public String panNo;
     public double openFees;
 
     public String address;

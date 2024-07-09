@@ -18,6 +18,8 @@ public class BankTest {
         bankFrom.mobileNo="9985533134";
         bankFrom.openFees=1000;
         bankFrom.address="Rajahmundry";
+        bankFrom.aadharNo="834923619430";
+        bankFrom.panNo="GNYPM6790N";
 
 
         BankService service=new BankService();
